@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>contact</title>
+</head>
+<body>
+    <a class="btn" href="homepage.html#A1">Items</a>
+    <h1 class="showname">Contact</h1>
+    <hr>
+    <div id="content" class="container">
+        <form id="info" action="" method="get" onsubmit="return false;">
+            <input type="text" id="username" name="name" placeholder="name:" size="40" class="text_copy"><br>  
+            <input type="text" id="usermail" name="e-mail" placeholder="e-mail:" size="40" class="text_copy"><br>
+            <textarea id="feedback" name="feedbackcontent" placeholder="Give me some suggestions..." rows="10" cols="40" class="text_copy"></textarea><br>
+            <input type="submit" value="submit" class="btn2" onclick="mydata();addmsg()">
+        </form>     
+    </div>
+    <div id="content_right" class="container">
+        <h2>Or contact me by phone or e-mail</h2> 
+        tel : (+886)989581799<br>
+        <p>e-mail : <a href="mailto:pork6421875@gmail.com">pork6421875@gmail.com</a></p>
+        <img src="picture/contact/Feedback3.gif" alt="">
+    </div>
+    <div id="hr2"></div>
+    <div>
+        <caption>
+            <h3 style="font-family: 'Courier New', Courier, monospace;"><strong>Historical record</strong></h3>
+        </caption>
+        <table align="center" width="800px" id="tablefeedback">
+            <tr>
+                <th>Message time</th><th>Name</th><th>E-mail</th><th>Message content</th>
+            </tr>
+        
+        </table>
+    </div>   
+</body>
+<script src="js/contact.js"></script>
+</html>
